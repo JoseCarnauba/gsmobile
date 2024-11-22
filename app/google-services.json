@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "441226876633",
+    "firebase_url": "https://ecopower-9e894-default-rtdb.firebaseio.com",
+    "project_id": "ecopower-9e894",
+    "storage_bucket": "ecopower-9e894.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441226876633:android:aaf15cf99fe783596690c8",
+        "android_client_info": {
+          "package_name": "br.com.fiap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOkJSa-2J62HKf6UCQ-Jx_9OibuR7BsLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

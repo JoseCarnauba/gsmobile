@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.fiap.activities.AddDataActivity">
+
+    <!-- EditText para Energia Consumida -->
+    <EditText
+        android:id="@+id/etEnergyConsumed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Energia Consumida (kWh)"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:padding="16dp"/>
+
+    <!-- EditText para Appliance -->
+    <EditText
+        android:id="@+id/etAppliance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Appliance (ex: Ar Condicionado)"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/etEnergyConsumed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <!-- Botão Salvar -->
+    <Button
+        android:id="@+id/btnSaveData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        app:layout_constraintTop_toBottomOf="@id/etAppliance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
